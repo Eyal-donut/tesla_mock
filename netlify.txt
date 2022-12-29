@@ -1,0 +1,1 @@
+netlify: New site -> edit site domain -> Eyal-Tesla-Netlify-up
