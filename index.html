@@ -9,12 +9,12 @@
 </head>
 <body>
     <header>
-        <div class="navbar fixed-navbar" id="fixed-navbar-top">
+        <!-- <div class="navbar fixed-navbar" id="fixed-navbar-top">
             <p>Take delivery of a new Model 3 between December 15, 2022 and December 31, 2022 for 6,000 miles of free Supercharging.</p>
-        </div>
+        </div> -->
 
         <nav class="navbar" id="sticky-navbar-top">
-            <div class="container">
+            <div class="container sticky-navbar-top-container">
                 <!-- insert logo here -->
                 <a href="#"><img src="" alt="Tesla-logo"></a>
             
@@ -41,10 +41,10 @@
 
     </header>
 
-    <section id="Model-3">
+    <section id="model-3">
         <!-- do i need a text-primary class? -->
         <h1 class="text-primary">Model 3</h1>
-        <div class="container" id="Model-3-main-container">
+        <div class="container" id="model-3-main-container">
 
             <div class="navbar fixed-navbar" id="fixed-navbar-left">
                 <!--9 squares under each other. when current 3px white, otherwise 1px white, when hover:text shows up and pointer, distance from left 24px -->
@@ -63,46 +63,59 @@
 
 
             <!-- the big footer container to push the elements in it left and right-->
-            <div class="container" id="Model-3-footer-navbar-container">
+            <div class="animation-navbar">
+                <div class="container animation-navbar-container" id="model-3-animation-navbar-container">
 
-                <!-- #1 inside of the big footer container: smaller ones to push elements up and down -->
-                <div class="container Model-3-navbar-container-inside">
+                    <!-- #1 inside of the big footer container: smaller ones to push elements up and down -->
+                    <div class="container animation-navbar-container-inside">
 
-                    <!-- <div>logo THE UP PART OF THE CONTAINER: speed-Anzeig+graphic: it should be a container to push the elements left and right</div> -->
-                        
-                    <!-- The DOWN PART -->
-                    <h4 class="text-secondary">0-60 mph*</h4>
+                        <!-- <div>logo THE UP PART OF THE CONTAINER: speed-Anzeig+graphic: it should be a container to push the elements left and right</div> -->
+                            
+                        <!-- The DOWN PART -->
+                        <h4 class="text-secondary">0-60 mph*</h4>
+
+                    </div>
+
+
+                    <!--#2  inside of the big footer container: smaller ones to push elements up and down -->
+                    <div class="container animation-navbar-container-inside">
+
+                        <!-- The up part -->
+                        <h2 class="text-primary">374<span><h3 class="text-primary"> mi</h3></span></h2>                        
+                        <!-- The DOWN PART -->
+                        <h4 class="text-scondary">Range (WLTP)</h4>
+
+                    </div>
+
+                    <!--#3  inside of the big footer container: smaller ones to push elements up and down -->
+                    <div class="container animation-navbar-container-inside">
+
+                        <!-- The up part -->
+                        <h2 class="text-primary">AWD</h2>                        
+                        <!-- The DOWN PART -->
+                        <h4 class="text-secondary">Dual Motor</h4>
+
+                    </div>
+
+                    <!--#4  inside of the big footer container -->
+                        <div class="container animation-navbar-container-inside">
+                            <button class="btn order-now-btn order-now-btn-light"><a href="#">Order Now</a></button>
+                    </div>
 
                 </div>
-
-
-                <!--#2  inside of the big footer container: smaller ones to push elements up and down -->
-                <div class="container Model-3-navbar-container-inside">
-
-                    <!-- The up part -->
-                    <h2 class="text-primary">374<span><h3 class="text-primary"> mi</h3></span></h2>                        
-                    <!-- The DOWN PART -->
-                    <h4 class="text-scondary">Range (WLTP)</h4>
-
-                </div>
-
-                <!--#3  inside of the big footer container: smaller ones to push elements up and down -->
-                <div class="container Model-3-navbar-container-inside">
-
-                    <!-- The up part -->
-                    <h2 class="text-primary">AWD</h2>                        
-                    <!-- The DOWN PART -->
-                    <h4 class="text-secondary">Dual Motor</h4>
-
-                </div>
-
-                <!--#4  inside of the big footer container -->
-                    <div class="container Model-3-navbar-container-inside">
-                        <button class="btn order-now-btn order-now-btn-light"><a href="#">Order Now</a></button>
-                </div>
-
             </div>
 
+            <!-- make this underlined -->
+            <footer id="model-3-footer">
+                <div class="container footer-container text-secondary-underlined">
+                    <h4><a href="#">Explore Inventory</a></h4>  
+                </div>
+            </footer>
+            
+            <div class="nav-arrow bottom-arrow animation-bottom-arrow">
+                <!-- make it scroll down to next section when clicking, do animation -->
+                <img src="/images/downarrow_icon.svg" alt="down_arrow">
+            </div>
         </div>
 
     </section>

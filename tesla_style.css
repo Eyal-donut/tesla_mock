@@ -1,20 +1,43 @@
 /* Reset */
+@font-face {
+    font-family: Gotham ;
+    src: url("/Gotham-Medium.otf");
+}
+
+
+
 * {
     padding:0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Gotham;
+}
+
+html, body {
 
 }
+
+
 a {
     text-decoration: none;
     color: inherit;
 }
 
-ul {
+/* ul {
     list-style: none;
-}
+} */
 
-/* EDIT THIS */
+/* Main styling */
+
+/* html,body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+  } */
+
+  
+
+
+
 
 /* body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
@@ -68,4 +91,11 @@ ul {
 
   }
 
-  
+
+  /* Section model 3 */
+
+#model-3 {
+    background: url('/images/Model-3-Main-Hero-Desktop-RHD.jfif') no-repeat center center/cover;
+    height: 600px;
+}
+
