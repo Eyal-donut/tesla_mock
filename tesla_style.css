@@ -4,17 +4,16 @@
     src: url("/Gotham-Medium.otf");
 }
 
-
-
 * {
     padding:0;
     margin: 0;
     box-sizing: border-box;
     font-family: Gotham;
+    font-weight: 500;
 }
 
-html, body {
-
+ul {
+    list-style: none;
 }
 
 
@@ -23,18 +22,46 @@ a {
     color: inherit;
 }
 
-/* ul {
-    list-style: none;
-} */
 
 /* Main styling */
 
-/* html,body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.7em;
-  } */
 
+h1 {
+    font-size:40px;
+    line-height: 48px;
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 28px;
+}
+h3 {
+    font-size:24px;
+    line-height: 24px;
+}
+h4 {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+h5 {
+    font-size:12px;
+    line-height: 18px;
+}
   
+.clr {
+    clear: both;
+}
+
+p {
+    font-size: 14;
+    color: #333;
+    line-height: 20px;
+  }
+
+.underline {
+    text-decoration: underline;
+}
 
 
 
@@ -84,18 +111,159 @@ a {
   /* Utility Classes */
 
   .navbar {
-
+    background: none;
+    overflow: auto;
   }
 
-  .navbar #fixed-nav{
-
+  .spacer {
+    background: none;
   }
+
+
+
 
 
   /* Section model 3 */
 
+#top-spacer {
+    height: 56px;
+}
+
 #model-3 {
     background: url('/images/Model-3-Main-Hero-Desktop-RHD.jfif') no-repeat center center/cover;
-    height: 600px;
+    height: 1024px;
+    width:100%;
+    color: #fff;
 }
+
+/* Navbar */
+
+
+#fixed-navbar-top {
+    width: 100%;
+    height: 56px;
+    position: fixed;
+    top: 6px;
+}
+
+#logo-box {
+    padding-left: 32px;
+}
+
+.navbar img{
+    width: 120px;
+    height: 24px;
+    /* padding: 6px 16px; */
+    margin-top: 12px;
+    margin-left: 16px;
+    float: left;
+
+}
+
+.navbar-container {
+    float: left;
+    width: 33.3%;
+    padding: 0px;
+  }
+
+#ul-right {
+    height: 56px;
+    padding-right: 32px;
+ 
+}
+
+#ul-right li {
+    float: right;
+}
+
+#ul-center {
+    height: 56px;
+    padding-right: 32px;
+}
+
+#ul-center li {
+    float: left;
+  
+}
+
+#fixed-navbar-top button{
+    font-size: 14px;
+    font-weight: 20px;
+    color:#fff;
+    background: none;
+    border: none;
+    height: 32px;
+    padding: 12px 8px;
+}
+
+#model-3-heading h1 {
+    text-align: center;
+    margin-top: 27px;
+}
+
+/* side bar - fixed */
+
+#side-bar-container {
+    width: 24px;
+    height: 517px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: none;
+}
+
+#side-bar-container ul {
+margin-top: 79px;
+margin-left: 12px;
+}
+
+#side-bar-container button{
+font-size: 10px;
+font-weight: 20px;
+color:#fff;
+background: none;
+border: none;
+border-left: 1px solid rgba(255,255,255, 0.5);
+height: 24px;
+margin: 3px;
+width: 107px;
+text-align: left;
+padding-left: 6px;
+color: transparent;
+}
+
+#side-bar-container button:hover {
+    color: #fff;
+}
+
+#side-bar-container ul li a button.current {
+    border-left: 3.5px solid #fff;
+}
+
+
+
+
+
+
+
+/* #fixed-navbar-btn-group-center {
+    height: 56px;
+    width: 100px;
+    float: left;
+}
+
+#fixed-navbar-btn-group-right {
+    height: 56px;
+    width: 449px;
+    float: right;
+}
+
+.btn-fixed-navbar-right {
+    float: right;
+}
+
+.btn-fixed-navbar-center {
+    float: left;
+} */
+
 

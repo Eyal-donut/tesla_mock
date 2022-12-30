@@ -8,58 +8,59 @@
     <title>Tesla_Mock</title>
 </head>
 <body>
-    <header>
-        <!-- <div class="navbar fixed-navbar" id="fixed-navbar-top">
-            <p>Take delivery of a new Model 3 between December 15, 2022 and December 31, 2022 for 6,000 miles of free Supercharging.</p>
-        </div> -->
-
-        <nav class="navbar" id="sticky-navbar-top">
-            <div class="container sticky-navbar-top-container">
-                <!-- insert logo here -->
-                <a href="#"><img src="" alt="Tesla-logo"></a>
-            
-                <div class="btn-group sticky-navbar-btn-group #sticky-navbar-btn-group-center">
-                    <button class="btn btn-sticky-navbar"><a href="#">Model S</a></button>
-                    <button class="btn btn-sticky-navbar"><a href="#">Model 3</a></button>
-                    <button class="btn btn-sticky-navbar"><a href="#">Model X</a></button>
-                    <button class="btn btn-sticky-navbar"><a href="#">Model Y</a></button>
-                    <button class="btn btn-sticky-navbar"><a href="#">Powerwall</a></button>
-                    <button class="btn btn-sticky-navbar"><a href="#">Charging</a></button>
-                </div>
-                           
-
-                <div class="btn-group sticky-navbar-btn-group #sticky-navbar-btn-group-right">
-                    <button class="btn btn sticky-navbar"><a href="#">Support S</a></button>
-                    <button class="btn btn sticky-navbar"><a href="#">Shop 3</a></button>
-                    <button class="btn btn sticky-navbar"><a href="#">Account X</a></button>
-                    <button class="btn btn sticky-navbar"><a href="#">Menu</a></button>
-                </div>
-
-            </div>
-
-        </nav>
-
-    </header>
+    
 
     <section id="model-3">
-        <!-- do i need a text-primary class? -->
-        <h1 class="text-primary">Model 3</h1>
+        <div class="spacer" id="top-spacer">
+            
+        </div>
+
+        <header>
+            <nav class="navbar" id="fixed-navbar-top">
+                
+                <div class="navbar-container" id="logo-box">
+                    <a href="#"><img id="tesla-logo" src="/images/tesla-logo.svg" alt="Tesla-logo"></a>
+                </div>
+
+                <ul class="nav navbar navbar-container" id="ul-center">
+                    <li><button><a href="#">Model S</a></button></li>
+                    <li><button><a href="#">Model 3</a></button></li>
+                    <li><button><a href="#">Model X</a></button></li>
+                    <li><button><a href="#">Model Y</a></button></li>
+                    <li><button><a href="#">Powerwall</a></button></li>
+                    <li><button><a href="#">Charging</a></button></li>
+                </ul>
+
+                <ul class="nav navbar navbar-container" id="ul-right">
+                    <li><button><a href="#">Menu</a></button></li>                       
+                    <li><button><a href="#">Account</a></button></li>
+                    <li><button><a href="#">Shop</a></button></li>
+                    <li><button><a href="#">Support</a></button></li>
+                </ul>
+
+                
+            </nav>
+        </header>
+
+        <div class="container" id="model-3-heading">
+            <h1>Model 3</h1>
+        </div>
+
         <div class="container" id="model-3-main-container">
 
-            <div class="navbar fixed-navbar" id="fixed-navbar-left">
-                <!--9 squares under each other. when current 3px white, otherwise 1px white, when hover:text shows up and pointer, distance from left 24px -->
-                <!-- bts that you only see their left border, when current section left border is 3px -->
-                <!-- TO DO: link that jumps from one section to another -->
-                <button class="btn btn-fixed-navbar-left"><a href="section model-3">Model 3</a></button>
-                <button class="btn btn-fixed-navbar-left"><a href="section Safety">Safety</a></button>
-                <button class="btn btn-fixed-navbar-left"><a href="section Performance">Performance</a></button>
-                <button class="btn btn-fixed-navbar-left"><a href="#">All-Wheel-Drive</a></button>
-                <button class="btn btn-fixed-navbar-left"><a href="#">Range</a></button>
-                <button class="btn btn-fixed-navbar-left"><a href="#">Autopilot</a></button>
-                <button class="btn btn-fixed-navbar-left"><a href="#">Interior</a></button>
-                <button class="btn btn-fixed-navbar-left"><a href="#">Specs</a></button>
-                <button class="btn btn-fixed-navbar-left"><a href="#">Order</a></button>
-            </div>
+        <nav id="side-bar-container">
+            <ul id="side-bar">
+                <li><a href="#"><button class="current">MODEL 3</button></a></li>
+                <li><a href="#"><button>SAFETY</button></a></li>
+                <li><a href="#"><button>PERFORMANCE</button></a></li>
+                <li><a href="#"><button>ALL-WHEEL DRIVE</button></a></li>
+                <li><a href="#"><button>RANGE</button></a></li>
+                <li><a href="#"><button>AUTOPILOT</button></a></li>
+                <li><a href="#"><button>INTERIOR</button></a></li>
+                <li><a href="#"><button>SPECS</button></a></li>
+                <li><a href="#"><button>ORDER</button></a></li>
+            </ul>
+        </nav>
 
 
             <!-- the big footer container to push the elements in it left and right-->
@@ -72,7 +73,7 @@
                         <!-- <div>logo THE UP PART OF THE CONTAINER: speed-Anzeig+graphic: it should be a container to push the elements left and right</div> -->
                             
                         <!-- The DOWN PART -->
-                        <h4 class="text-secondary">0-60 mph*</h4>
+                        <h5>0-60 mph*</h5>
 
                     </div>
 
@@ -81,9 +82,9 @@
                     <div class="container animation-navbar-container-inside">
 
                         <!-- The up part -->
-                        <h2 class="text-primary">374<span><h3 class="text-primary"> mi</h3></span></h2>                        
+                        <h2>374<span><h3> mi</h3></span></h2>                        
                         <!-- The DOWN PART -->
-                        <h4 class="text-scondary">Range (WLTP)</h4>
+                        <h5>Range (WLTP)</h5>
 
                     </div>
 
@@ -91,9 +92,9 @@
                     <div class="container animation-navbar-container-inside">
 
                         <!-- The up part -->
-                        <h2 class="text-primary">AWD</h2>                        
+                        <h2>AWD</h2>                        
                         <!-- The DOWN PART -->
-                        <h4 class="text-secondary">Dual Motor</h4>
+                        <h5>Dual Motor</h5>
 
                     </div>
 
@@ -107,7 +108,7 @@
 
             <!-- make this underlined -->
             <footer id="model-3-footer">
-                <div class="container footer-container text-secondary-underlined">
+                <div class="container footer-container underline">
                     <h4><a href="#">Explore Inventory</a></h4>  
                 </div>
             </footer>
@@ -120,6 +121,9 @@
 
     </section>
 
+    <div id="test">
+        <p>bigdiv</p>
+    </div>
 
 
 
