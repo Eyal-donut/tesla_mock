@@ -213,7 +213,7 @@ p {
 }
 
 #side-bar-container ul {
-margin-top: 79px;
+margin-top: 126px;
 margin-left: 12px;
 }
 
@@ -223,7 +223,7 @@ font-weight: 20px;
 color:#fff;
 background: none;
 border: none;
-border-left: 1px solid rgba(255,255,255, 0.5);
+border-left: 1px solid rgba(255,255,255, 0.25);
 height: 24px;
 margin: 3px;
 width: 107px;
