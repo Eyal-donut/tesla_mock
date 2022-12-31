@@ -267,7 +267,7 @@ color: transparent;
     height: 54px;
     margin: auto;
     margin-top: 374px;
-    margin-right: 396px;
+    margin-right: 390px;
 
 }
 
@@ -333,7 +333,9 @@ color: transparent;
     margin-top: 5px;
 }
 
-
+.container.footer-container {
+    text-align: center;
+}
 
 
 
