@@ -119,8 +119,26 @@ p {
     background: none;
   }
 
+  .btn.order-now-btn.order-now-btn-light {
+    width: 204px;
+    height: 40px;
+    padding: 4px 24px;
+    background: none;
+    color: #fff;
+    border: #fff solid 3px;
+    border-radius: 4px;
+
+  }
+
+  .btn.order-now-btn.order-now-btn-light:hover {
+    color: #333;
+    background: #fff;
+  }
+
+ 
 
 
+  
 
 
 
@@ -245,10 +263,11 @@ color: transparent;
 /* Animation navbar */
 
 .animation-navbar.animation-navbar-container-l1 {
-    max-width: 764px;
+    max-width: 785px;
     height: 54px;
     margin: auto;
     margin-top: 374px;
+    margin-right: 396px;
 
 }
 
@@ -259,6 +278,7 @@ color: transparent;
     position: relative;
 }
 
+
 .container.animation-navbar-container-inside-l2 span {
     font-size: 24px;
 }
@@ -267,7 +287,7 @@ color: transparent;
 
 .inside-container-right-l4 {
     float: right;
-    width: 65%;
+    width: 45%;
     text-align: left;
 }
 
@@ -275,29 +295,42 @@ color: transparent;
 
 .inside-container-left-l4 {
     float: left;
-    width: 35%;
+    width: 55%;
 }
 
 .container-speedbar-outer-circle-l5 {
     position: relative;
+    float: right;
+    margin-right: 4px;
+    margin-top: 4px;
+
 }
 
 .container-speed-bar-inside-l6 {
     position: absolute;
     top: 5px;
-    left: 18.5px;
+    left: 5px;
     opacity: 0.5;
 }
 
 .container-speed-bar-inside-l6-needle {
     position: absolute;
     top: 12px;
-    left: 23px;
+    left: 10px;
 
 }
 
 .container-speed-bar-inside-l6-needle img{
     transform: rotate(264deg);
+}
+
+.container-down-l3 {
+    margin-left: 30px;
+    margin-top: 5px;
+    }
+
+.inside-container-down-l3 {
+    margin-top: 5px;
 }
 
 
