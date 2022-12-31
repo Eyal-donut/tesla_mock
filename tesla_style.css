@@ -136,6 +136,7 @@ p {
   }
 
  
+ 
 
 
   /* Section model 3 */
@@ -215,7 +216,12 @@ p {
     background: none;
     border: none;
     height: 32px;
-    padding: 12px 8px;
+    padding: 4px 8px;
+}
+#fixed-navbar-top button:hover {
+    background: #697179;
+    border: #697179;
+    border-radius: 5px;
 }
 
 #model-3-heading h1 {
@@ -364,13 +370,170 @@ color: transparent;
     height: 24px;
     width: 24px;
     text-align: center;
+    filter: brightness(0) invert(1);
 }    
 
+/* Safety part */
+
+.container-safety#container-safety-l1 {
+    height: 720px;
+    width: 100%;
+    background: none;
+}
+.container-safety-left#safety-left-l2 {
+    background: #fff;
+    height: 720px;
+    width: 28%;
+    float: left;
+
+}
+
+.container-safety-right#safety-right-l2 {
+    background: url(./images/White_car.jfif) no-repeat center center/cover; 
+    height: 720px;
+    width: 72%;
+    float: right;
+}
+
+.container-safety-left#safety-left-l3 {
+    background: #fff;
+    height: 450px;
+    width: 328px;
+    margin: 32px 40px 32px 48px;
+
+
+}
+.container-safety-left#safety-left-l4 {
+    height: 24px;
+    width: 220px;
+    float:left;
+}
+
+.container-safety-left#safety-left-l4-p1 p {
+    color: #171A20;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    padding-top: 16px;
+}
+
+.container-safety-left#safety-left-l4-p2 p {
+    color: #171A20;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+    padding-top: 0;
+    padding-bottom: 16px;
+}
+
+.container-safety-left#safety-left-l4-p3 {
+    width: 320px;
+    height: 160px;
+}
+.container-safety-left#safety-left-l4-p3 p {
+    color: ;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    padding-top: 0;
+    padding-bottom: 8px;
+    opacity: 0.7;
+}
+
+.container-safety-left#safety-left-l4-stars {
+    width: 320px;
+    height:188px;
+    text-align: center;
+    background: #fff;
+    margin-top: 38px;
+}
+
+#heading.container-safety-left-l5 p{
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-bottom: 16px;
+    text-align: center;
+
+}
+
+/* incl. all the l6 texts */
+.container-safety-left-l5 p{
+    font-size: 14px;
+    font-weight: 700px;
+    line-height: 20px;
+    text-align: left;
+    padding-bottom: 8px;
+    
+}
+
+#stars-categories.container-safety-left-l5 {
+    float: left;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.container-safety-left-l6-right img {
+    float: right;
+    margin-right: 20px;
+    height: 106px;
+}
 
 
 
+.btn.order-now-btn.order-now-btn-dark button{
+    width: 204px;
+    height: 40px;
+    padding: 4px 24px;
+    background: none;
+    color: #333;
+    border: #333 solid 3px;
+    border-radius: 4px;
+    margin-top: 110px;
+    margin-right: 32px;
+    float:right;
+  }
+
+  .btn.order-now-btn.order-now-btn-dark:hover button{
+    color: #fff;
+    background: #333;
+  }
 
 
+
+#learn-more {
+    float:left;
+    margin-top: 110px;
+    width: 138px;
+    margin-left: 44px;
+}
+
+#learn-more p{
+    float:right;
+    width: 64%;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+
+
+}
+#learn-more button{
+    float:left;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: none;
+    color: #333;
+    border: #333 solid 3px;
+}
+#learn-more button:hover{
+    color: #fff;
+    background: #333;
+}
 
 
 
