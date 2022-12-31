@@ -138,11 +138,6 @@ p {
  
 
 
-  
-
-
-
-
   /* Section model 3 */
 
 #top-spacer {
@@ -151,7 +146,7 @@ p {
 
 #model-3 {
     background: url('/images/background3.jfif') no-repeat center center/cover;
-    height: 620px;
+    height: 720px;
     width:100%;
     color: #fff;
 }
@@ -188,21 +183,28 @@ p {
 
 #ul-right {
     height: 56px;
+    width: auto;
     padding-right: 32px;
+    float: right;
  
 }
 
 #ul-right li {
     float: right;
+    padding-left: 15px;
+
 }
 
 #ul-center {
     height: 56px;
-    padding-right: 32px;
+    width: auto;
+    padding-right: 45px;
+    
 }
 
 #ul-center li {
     float: left;
+    padding-left: 15px;
   
 }
 
@@ -218,7 +220,7 @@ p {
 
 #model-3-heading h1 {
     text-align: center;
-    margin-top: 27px;
+    margin-top: 60px;
 }
 
 /* side bar - fixed */
@@ -233,7 +235,7 @@ p {
 }
 
 #side-bar-container ul {
-margin-top: 126px;
+margin-top: 184px;
 margin-left: 12px;
 }
 
@@ -266,7 +268,7 @@ color: transparent;
     max-width: 785px;
     height: 54px;
     margin: auto;
-    margin-top: 374px;
+    margin-top: 416px;
     margin-right: 390px;
 
 }
@@ -337,9 +339,32 @@ color: transparent;
     text-align: center;
 }
 
+.container.footer-container button{
+    background: none;
+    color: #fff;
+    border: none;
+    border-bottom: #fff solid 1px;
+    font-size: 12px;
+    line-height: 18px;
+}
 
+.container.footer-container button:hover{
+   border-bottom:#fff solid 3px;
+}
 
-    
+#model-3-footer {
+    margin-top: 29px;
+}
+
+.nav-arrow.bottom-arrow.animation-bottom-arrow {
+    text-align: center;
+}
+
+.nav-arrow.bottom-arrow.animation-bottom-arrow img {
+    height: 24px;
+    width: 24px;
+    text-align: center;
+}    
 
 
 
